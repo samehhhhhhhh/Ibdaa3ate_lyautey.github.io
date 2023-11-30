@@ -1,0 +1,138 @@
+
+.container {
+    width: 1600px;
+    height: 1001px;
+    position: relative;
+    background: white;
+}
+
+.header {
+    width: 1440px;
+    height: 212px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #333333;
+}
+
+.section1 {
+    width: 1158px;
+    height: 324px;
+    left: 211px;
+    top: 231px;
+    position: absolute;
+    background: #333333;
+}
+
+.section2 {
+    width: 1158px;
+    height: 411px;
+    left: 211px;
+    top: 574px;
+    position: absolute;
+    background: #333333;
+}
+
+.section3 {
+    width: 1096px;
+    height: 256px;
+    left: 242px;
+    top: 290px;
+    position: absolute;
+    text-align: right;
+}
+
+.section3 .title-arabic {
+    color: white;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.section3 .subtitle-arabic {
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.section4 {
+    width: 1119px;
+    height: 232px;
+    left: 242px;
+    top: 667px;
+    position: absolute;
+}
+
+.section4 .title {
+    color: white;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 5px;
+    word-wrap: break-word;
+}
+
+.section4 .subtitle {
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.menu1 {
+    width: 230px;
+    height: 57px;
+    left: 421px;
+    top: 78px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.menu2 {
+    width: 230px;
+    height: 99px;
+    left: 817px;
+    top: 75px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.menu3 {
+    width: 230px;
+    height: 99px;
+    left: 25px;
+    top: 75px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.menu3 .menu-title {
+    width: 230px;
+    height: 99px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+a {
+    text-decoration: none;
+    color: white;
+  }

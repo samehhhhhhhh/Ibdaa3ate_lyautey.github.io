@@ -1,0 +1,32 @@
+<!-- template.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/css/Mstyle.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header"></div>
+        <div class="menu1">
+            <a href="#" class="menu-title">Magazines</a>
+        </div>
+        <div class="menu2">
+            <a href="Contact.html" class="menu-title">Contact</a>
+        </div>
+        <div class="menu3">
+            <a href="index.html" class="menu-title">Accueil</a>
+        </div>
+    </div>
+
+    <div class="section1"></div>
+    <div class="section3">
+        {% for magazine in magazines %}
+            <div  class="title-arabic">{{ magazine.Titre }}</div>
+            <div class="subtitle-arabic">{{ magazine.description }}</div>
+            <a style="text-decoration: underline;" class="subtitle-arabic" href="{{ magazine.lien }}">Lien</a>
+        {% endfor %}
+    </div>
+ 
+</html>
