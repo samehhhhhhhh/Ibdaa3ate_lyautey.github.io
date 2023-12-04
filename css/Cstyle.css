@@ -40,6 +40,7 @@
     top: 290px;
     position: absolute;
     text-align: right;
+    word-wrap: break-word;
 }
 
 .section3 .title-arabic {
@@ -64,6 +65,7 @@
     left: 242px;
     top: 667px;
     position: absolute;
+    word-wrap: break-word;
 }
 
 .section4 .title {
